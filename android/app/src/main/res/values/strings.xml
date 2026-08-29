@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MedVault</string>
+
+    <string name="unlock_title">MedVault entsperren</string>
+    <string name="unlock_subtitle">Bestätige deine Identität, um auf deine medizinischen Dokumente zuzugreifen.</string>
+    <string name="unlock_button">Entsperren</string>
+    <string name="unlock_prompt_title">MedVault entsperren</string>
+    <string name="unlock_prompt_subtitle">Biometrie oder Gerätecode bestätigen</string>
+    <string name="unlock_error_generic">Entsperren fehlgeschlagen. Bitte erneut versuchen.</string>
+    <string name="unlock_no_biometrics">Kein Gerätecode/Biometrie eingerichtet. Bitte in den Systemeinstellungen einrichten, um MedVault zu nutzen.</string>
+
+    <string name="profiles_title">Profile</string>
+    <string name="profiles_add">Profil hinzufügen</string>
+
+    <string name="documents_title">Dokumente</string>
+    <string name="documents_search_hint">Suche nach Titel, Arzt, Inhalt…</string>
+    <string name="documents_empty">Noch keine Dokumente in diesem Profil.</string>
+    <string name="documents_add">Dokument hinzufügen</string>
+
+    <string name="import_title">Dokument importieren</string>
+    <string name="import_source_share">Aus Teilen-Funktion</string>
+    <string name="import_source_file">Datei auswählen</string>
+    <string name="import_source_scan">Mit Kamera scannen</string>
+    <string name="import_field_title">Titel</string>
+    <string name="import_field_category">Kategorie</string>
+    <string name="import_field_doctor">Arzt/Institution</string>
+    <string name="import_field_date">Datum</string>
+    <string name="import_field_tags">Tags</string>
+    <string name="import_field_notes">Notizen</string>
+    <string name="import_save">Speichern</string>
+
+    <string name="category_laborbefund">Laborbefund</string>
+    <string name="category_arztbrief">Arztbrief</string>
+    <string name="category_bildgebung">Bildgebung</string>
+    <string name="category_medikation">Medikation</string>
+    <string name="category_impfung">Impfung</string>
+    <string name="category_sonstiges">Sonstiges</string>
+
+    <string name="document_detail_share">Teilen</string>
+    <string name="document_detail_delete">Löschen</string>
+    <string name="document_detail_delete_confirm">Dieses Dokument endgültig löschen?</string>
+    <string name="document_ocr_pending">Texterkennung läuft…</string>
+    <string name="document_ocr_failed">Texterkennung fehlgeschlagen (Dokument bleibt über Titel/Tags auffindbar).</string>
+
+    <string name="settings_title">Einstellungen</string>
+    <string name="settings_backup_export">Backup exportieren</string>
+    <string name="settings_backup_restore">Backup wiederherstellen</string>
+    <string name="settings_backup_password">Backup-Passwort</string>
+</resources>

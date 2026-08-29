@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- Only these app-private cache subfolders are exposed, never the encrypted document store
+         itself. "share" holds temp decrypted copies for outgoing ACTION_SEND (see
+         files/EncryptedFileStore.kt); "incoming" holds copies of content shared *into* MedVault
+         before they're re-encrypted into the store (see importing/ShareReceiverActivity.kt). -->
+    <cache-path name="share_cache" path="share/" />
+    <cache-path name="incoming_cache" path="incoming/" />
+</paths>

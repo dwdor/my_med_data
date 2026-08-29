@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Everything opts out of cloud/device-transfer backup: this app's entire point is that
+     sensitive documents never leave the device except through the explicit, user-driven
+     encrypted backup flow (see backup/BackupManager.kt). -->
+<data-extraction-rules>
+    <cloud-backup disableIfNoEncryptionCapability="true">
+        <exclude domain="root" />
+    </cloud-backup>
+    <device-transfer>
+        <exclude domain="root" />
+    </device-transfer>
+</data-extraction-rules>
